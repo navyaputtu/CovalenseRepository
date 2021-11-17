@@ -17,7 +17,7 @@ public class SpringBootMvcForm1Application {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext cntx = SpringApplication.run(SpringBootMvcForm1Application.class, args);
-		Department department1 = new Department(1, "");
+		Department department1 = new Department(1, "java");
 		Department department2 = new Department(2, "c");
 		Employee employee1 = new Employee(101, "Navya", department1);
 		Employee employee2 = new Employee(102, "Pranavi", department1);
