@@ -1,4 +1,3 @@
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -8,15 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="getemps">Show All Employee</a>
+	<h2>Department Details</h2>
+	Id:${ department.id }
 	<br>
-	<br>
-	<a href="regemp">Register Employees</a>
+	<br> Name:${ department.name }
 	<br>
 	<br>
 	<a href="/">Home</a>
-	<br>
-	<br>
+	<a href="getDepts">ShowAllDepartment</a>
 </body>
 </html>
-

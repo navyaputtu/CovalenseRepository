@@ -1,18 +1,24 @@
 package com.cov.exception;
 
-import com.cov.beans.Employee;
-
 public class InvalidEmployeeIdException extends Exception {
 
-	public InvalidEmployeeIdException(Employee employee) {
+	public InvalidEmployeeIdException() {
+		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public InvalidEmployeeIdException(String string) {
+	public InvalidEmployeeIdException(String message, Throwable cause) {
+		super(message, cause);
 		// TODO Auto-generated constructor stub
 	}
 
-	public void InvalidEmployeeIdException(Employee employee) {
+	public InvalidEmployeeIdException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	public InvalidEmployeeIdException(Throwable cause) {
+		super(cause);
 		// TODO Auto-generated constructor stub
 	}
 

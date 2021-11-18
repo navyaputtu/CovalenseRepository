@@ -16,7 +16,7 @@ public class Employee {
 	String name;
 
 	@ManyToOne(fetch = FetchType.LAZY, optional = false)
-//@JoinColumn(name = "dept_id", nullable = false)
+// @JoinColumn(name = "departmentid", nullable = false)
 	Department department;
 
 	public Employee(int id, String name, Department department) {
@@ -28,7 +28,6 @@ public class Employee {
 
 	public Employee() {
 		super();
-// TODO Auto-generated constructor stub
 	}
 
 	public int getId() {

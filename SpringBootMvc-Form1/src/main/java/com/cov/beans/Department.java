@@ -2,7 +2,6 @@ package com.cov.beans;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -13,15 +12,15 @@ import javax.persistence.OneToMany;
 @Entity
 public class Department {
 	@Id
-	int id;
 	@GeneratedValue(strategy = GenerationType.AUTO)
+	int id;
+
 	String name;
 
 	@OneToMany(mappedBy = "department", fetch = FetchType.EAGER)
 	public List<Employee> employees = new ArrayList<>();
 
 	public Department() {
-
 	}
 
 	public Department(int id, String name) {
