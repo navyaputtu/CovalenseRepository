@@ -9,13 +9,14 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 import com.cov.beans.Department;
 import com.cov.beans.Employee;
+import com.cov.exception.InvalidDepartmentIdException;
 import com.cov.service.DepartmentService;
 import com.cov.service.EmployeeService;
 
 @SpringBootApplication
 public class SpringBootMvcForm1Application {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InvalidDepartmentIdException {
 		ConfigurableApplicationContext cntx = SpringApplication.run(SpringBootMvcForm1Application.class, args);
 		Department department1 = new Department(1, "java");
 		Department department2 = new Department(2, "c");
@@ -40,6 +41,8 @@ public class SpringBootMvcForm1Application {
 		employeeService.save(employee2);
 		employeeService.save(employee3);
 		employeeService.save(employee4);
+		List<Employee> empsInDept2 = employeeService.findAllByDeptId();
+		System.out.println("Existing employess");
 
 	}
 

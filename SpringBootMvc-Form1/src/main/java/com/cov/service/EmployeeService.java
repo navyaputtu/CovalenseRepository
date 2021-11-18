@@ -54,4 +54,9 @@ public class EmployeeService {
 		employeeRepository.deleteById(id);
 		return employee;
 	}
+
+	public List<Employee> findAllByDeptId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
