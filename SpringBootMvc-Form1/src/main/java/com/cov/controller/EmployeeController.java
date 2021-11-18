@@ -24,22 +24,22 @@ public class EmployeeController {
 
 	@RequestMapping(value = "regemp", method = RequestMethod.GET)
 	public ModelAndView newEmployee() {
-		ModelAndView modelAndView = new ModelAndView("regEmployee", "employee", new Employee());
+		ModelAndView modelAndView = new ModelAndView("showEmployee", "employee", new Employee());
 		return modelAndView;
 
 	}
 
-	@RequestMapping(value = "regemp", method = RequestMethod.POST)
-	public ModelAndView saveEmployee(@ModelAttribute Employee emp) {
-		ModelAndView modelAndView = new ModelAndView("savedEmployee");
-		modelAndView.addObject("emp", employeeService.save(emp));
-		return modelAndView;
-
-	}
+//	@RequestMapping(value = "regemp", method = RequestMethod.POST)
+//	public ModelAndView saveEmployee(@ModelAttribute Employee emp) {
+//		ModelAndView modelAndView = new ModelAndView("savedEmployee");
+//		modelAndView.addObject("emp", employeeService.save(emp));
+//		return modelAndView;
+//
+//	}
 
 	@RequestMapping("getEmp")
 	public ModelAndView findEmployee(Employee employee) {
-		ModelAndView modelAndView = new ModelAndView("showEmployees", "emps", employeeService.findAll());
+		ModelAndView modelAndView = new ModelAndView("showEmployee", "emps", employeeService.findAll());
 		// List<Employee> emps= employeeService.findAll();
 		// modelAndView.addObject("emps",emps);
 		return modelAndView;
@@ -48,7 +48,7 @@ public class EmployeeController {
 
 	@RequestMapping(value = "editEmp", method = RequestMethod.GET)
 	public ModelAndView editEmp(@RequestParam int id) throws InvalidEmployeeIdException {
-		
+
 		Employee empToEdit = employeeService.findById(id);
 		ModelAndView modelAndView = new ModelAndView("editEmployee", "empToEdit", empToEdit);
 
@@ -56,17 +56,9 @@ public class EmployeeController {
 	}
 
 	@RequestMapping(value = "updateEmp", method = RequestMethod.POST)
-	public ModelAndView updateEmp(@ModelAttribute("empToEdit") Employee employee)
-			throws InvalidEmployeeIdException {
+	public ModelAndView updateEmp(@ModelAttribute("empToEdit") Employee employee) throws InvalidEmployeeIdException {
 		ModelAndView modelAndView = new ModelAndView("redirect:" + "getEmp");
 
-		return modelAndView;
-	}
-
-	@RequestMapping(value = "deleteEmp")
-	public ModelAndView deleteEmp(@RequestParam int id) throws InvalidEmployeeIdException {
-		employeeService.delete(id);
-		ModelAndView modelAndView = new ModelAndView("redirect:" + "getEmp");
 		return modelAndView;
 	}
 

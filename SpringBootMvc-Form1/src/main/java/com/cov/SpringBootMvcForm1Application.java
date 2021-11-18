@@ -18,12 +18,12 @@ public class SpringBootMvcForm1Application {
 
 	public static void main(String[] args) throws InvalidDepartmentIdException {
 		ConfigurableApplicationContext cntx = SpringApplication.run(SpringBootMvcForm1Application.class, args);
-		Department department1 = new Department(1, "java");
-		Department department2 = new Department(2, "c");
+		Department department1 = new Department(1, "Marketing");
+		Department department2 = new Department(2, "Admin");
 		Employee employee1 = new Employee(101, "Navya", department1);
-		Employee employee2 = new Employee(102, "Pranavi", department1);
-		Employee employee3 = new Employee(103, "Teju", department2);
-		Employee employee4 = new Employee(104, "vamsi", department2);
+		Employee employee2 = new Employee(102, "Puttu", department1);
+		Employee employee3 = new Employee(103, "Vamsi", department2);
+		Employee employee4 = new Employee(104, "Vishnu", department2);
 
 		List<Employee> employees1 = new ArrayList<>();
 		List<Employee> employees2 = new ArrayList<>();

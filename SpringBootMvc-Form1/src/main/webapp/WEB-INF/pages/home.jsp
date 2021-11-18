@@ -8,10 +8,10 @@ pageEncoding="ISO-8859-1"%>
 </head>
 <body>
 <h2>welcome to employee registration page</h2>
-<a href="regemp">Employee Registration</a><br><br>
-<a href="getEmp">Employee Details</a>
 
-
+<a href="getEmp">List of Employees</a>
+<br><br>
+<a href="getDep">List of Departments</a>
 
 
 </body>
