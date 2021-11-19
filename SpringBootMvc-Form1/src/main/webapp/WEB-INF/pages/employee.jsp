@@ -1,22 +1,27 @@
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-	<a href="getemps">Show All Employee</a>
+<title>EmpInfo</title>
+</head><center>
+<body style="background-color:powderblue;"><br><br><br><br>
+	<h2><a href="getemps">List Of All Employees</a></h2>
 	<br>
 	<br>
-	<a href="regemp">Register Employees</a>
+	<h2><a href="regemp">Employee Registration</a></h2>
 	<br>
 	<br>
-	<a href="/">Home</a>
+	
 	<br>
 	<br>
+	<br>
+	<br>
+	<h2><a href="/">Back To Home</a></h2>
+	<br>
+	<br>
+	</center>
 </body>
 </html>
 

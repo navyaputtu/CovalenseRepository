@@ -8,23 +8,23 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>REgistration Page</title>
-</head>
-<body>
+<title>EmpRegPage</title>
+</head><center>
+<body style="background-color: powderblue;"><br><br>
+
+<h2>Registration For Employee</h2><br><br>
+
 	<form:form action="regemp" method="post" modelAttribute="employee">
-		<!-- <form:label path="id">ID</form:label>
-<form:input path="id" />
-<br>
-<br> -->
-		<form:label path="name">Name</form:label>
+		
+		<form:label path="name"    >    Name:</form:label>
 		<form:input path="name" />
 		<br>
-		<br>
+		<br><br>
 		<%
 		DepartmentService departmentService = (DepartmentService) request.getAttribute("departmentService");
 		List<Department> departments = departmentService.findAll();
 		%>
-		<form:label path="department">Department</form:label>
+		<form:label path="department">Department:</form:label>
 		<form:select path="department">
 			<form:option value="0">--Select--</form:option>
 			<%
@@ -36,18 +36,17 @@
 			%>
 		</form:select>
 
-
+<br><br><br>
 		<input type="submit" value="Register">
+		<br>
+		<br>
 	</form:form>
 	<br>
 	<br>
-	<a href="/">Home</a>
+	<br>
+	<h4><a href="/">Back To Home</a></h4>
 	<br>
 	<br>
-
-
-
-
-
 </body>
+</center>
 </html>

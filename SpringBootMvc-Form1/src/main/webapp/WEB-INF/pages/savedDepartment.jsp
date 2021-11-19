@@ -4,16 +4,22 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-	<h2>Department Details</h2>
-	Id:${ department.id }
+<title>SavedDept</title>
+</head><center>
+<body style="background-color:powderblue;"><br><br><br><br>
+
+	<h2>Registered Department</h2><br>
+	<h3>Id:     ${ department.id }</h3>
 	<br>
-	<br> Name:${ department.name }
+	
+	<h3> Name:  ${ department.name }</h3>
 	<br>
 	<br>
-	<a href="/">Home</a>
-	<a href="getDepts">ShowAllDepartment</a>
+	<br>
+	<br>
+	<h4><a href="/">Back To Home</a></h4>
+	<h4><a href="getDepts">Department Details</a></h4>
+	
 </body>
+</center>
 </html>

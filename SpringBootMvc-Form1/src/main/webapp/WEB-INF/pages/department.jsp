@@ -4,17 +4,23 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Department Page</title>
+<title>DepInfo</title>
 </head>
-<body>
-	<a href="getDepts">Show Department</a>
+<center>
+<body style="background-color:powderblue;"><br><br><br><br>
+	<h2><a href="getDepts">List Of All Departments</a></h2>
 	<br>
 	<br>
-	<a href="regdept">Register Department</a>
+	<h2><a href="regdept">Department Registration</a></h2>
 	<br>
 	<br>
-	<a href="/">Home</a>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h2><a href="/">Home</a></h2>
 	<br>
 	<br>
 </body>
+</center>
 </html>
