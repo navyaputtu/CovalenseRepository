@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.cov.beans.Employee;
+import com.cov.exception.InvalidDepartmentIdException;
 import com.cov.exception.InvalidEmployeeIdException;
 import com.cov.repo.EmployeeRepository;
 
@@ -54,4 +55,21 @@ public class EmployeeService {
 		employeeRepository.deleteById(id);
 		return employee;
 	}
-}
+
+	public List<Employee> findAllByDeptno(int deptno) throws InvalidDepartmentIdException {
+		List<Employee> employee = employeeRepository.findAllByDeptno(deptno);
+		if (employee.isEmpty()) {
+		throw new InvalidDepartmentIdException("Department Id " + deptno + "not existing in repository");
+		}
+
+
+
+		return employee;
+
+
+
+		}
+
+
+
+		}

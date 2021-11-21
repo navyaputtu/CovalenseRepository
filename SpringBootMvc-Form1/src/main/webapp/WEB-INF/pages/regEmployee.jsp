@@ -14,7 +14,7 @@
 
 <h2>Registration For Employee</h2><br><br>
 
-	<form:form action="regemp" method="post" modelAttribute="employee">
+	<form:form action="regEmp" method="post" modelAttribute="employees">
 		
 		<form:label path="name"    >    Name:</form:label>
 		<form:input path="name" />
