@@ -1,0 +1,67 @@
+22-11-2021 17:32:00INFO  com.cov.controller.PersonController:30 - Finding a person with id:1
+22-11-2021 17:32:00INFO  com.cov.service.PersonService:26 - Finding person with ID : 1
+22-11-2021 17:32:00INFO  com.cov.service.PersonService:35 - Person found with id 1 is navya puttu
+22-11-2021 17:32:00DEBUG com.cov.controller.PersonController:32 - Found person isnavya puttu
+22-11-2021 17:32:00INFO  com.cov.service.PersonService:26 - Finding person with ID : 1
+22-11-2021 17:32:00INFO  com.cov.service.PersonService:35 - Person found with id 1 is navya puttu
+22-11-2021 19:16:13INFO  com.cov.controller.PersonController:50 - inserting a person with navya Veeraswamy
+22-11-2021 19:16:13INFO  com.cov.service.PersonService:40 - inserting a person
+22-11-2021 19:16:13WARN  com.cov.service.PersonService:42 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 12:47:27INFO  com.cov.service.PersonService:20 - finding all persons
+23-11-2021 12:47:27INFO  com.cov.service.PersonService:20 - finding all persons
+23-11-2021 13:00:07INFO  com.cov.service.PersonService:20 - finding all persons
+23-11-2021 13:00:07INFO  com.cov.service.PersonService:20 - finding all persons
+23-11-2021 13:05:01INFO  com.cov.service.PersonService:20 - finding all persons
+23-11-2021 13:05:01INFO  com.cov.service.PersonService:20 - finding all persons
+23-11-2021 16:12:43INFO  com.cov.service.PersonService:20 - finding all persons
+23-11-2021 16:12:43INFO  com.cov.service.PersonService:20 - finding all persons
+23-11-2021 17:09:28INFO  com.cov.service.PersonService:20 - finding all persons
+23-11-2021 17:09:28INFO  com.cov.service.PersonService:20 - finding all persons
+23-11-2021 17:10:45INFO  com.cov.controller.PersonController:31 - finding a person with id 2
+23-11-2021 17:10:45INFO  com.cov.service.PersonService:25 - finding person with id: 2
+23-11-2021 17:10:45WARN  com.cov.service.PersonService:28 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 17:10:45INFO  com.cov.service.PersonService:35 - person found with id 2isnavya Veeraswamy
+23-11-2021 17:10:45INFO  com.cov.controller.PersonController:35 - person found with id 2 isnavya Veeraswamy
+23-11-2021 17:10:45INFO  com.cov.service.PersonService:25 - finding person with id: 2
+23-11-2021 17:10:45WARN  com.cov.service.PersonService:28 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 17:10:45INFO  com.cov.service.PersonService:35 - person found with id 2isnavya Veeraswamy
+23-11-2021 17:10:58INFO  com.cov.controller.PersonController:31 - finding a person with id 55
+23-11-2021 17:10:58INFO  com.cov.service.PersonService:25 - finding person with id: 55
+23-11-2021 17:10:58WARN  com.cov.service.PersonService:28 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 17:16:10INFO  com.cov.controller.PersonController:31 - finding a person with id 55
+23-11-2021 17:16:10INFO  com.cov.service.PersonService:25 - finding person with id: 55
+23-11-2021 17:16:10WARN  com.cov.service.PersonService:28 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 17:16:10INFO  com.cov.exception.GlobalexceptionHandler:22 - status404 NOT_FOUND
+23-11-2021 17:16:10INFO  com.cov.exception.GlobalexceptionHandler:23 - messagenull
+23-11-2021 17:18:00INFO  com.cov.controller.PersonController:31 - finding a person with id 2
+23-11-2021 17:18:00INFO  com.cov.service.PersonService:25 - finding person with id: 2
+23-11-2021 17:18:00WARN  com.cov.service.PersonService:28 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 17:18:00INFO  com.cov.service.PersonService:35 - person found with id 2isnavya Veeraswamy
+23-11-2021 17:18:00INFO  com.cov.controller.PersonController:35 - person found with id 2 isnavya Veeraswamy
+23-11-2021 17:18:00INFO  com.cov.service.PersonService:25 - finding person with id: 2
+23-11-2021 17:18:00WARN  com.cov.service.PersonService:28 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 17:18:00INFO  com.cov.service.PersonService:35 - person found with id 2isnavya Veeraswamy
+23-11-2021 17:18:36INFO  com.cov.controller.PersonController:31 - finding a person with id 2
+23-11-2021 17:18:36INFO  com.cov.service.PersonService:25 - finding person with id: 2
+23-11-2021 17:18:36WARN  com.cov.service.PersonService:28 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 17:18:36INFO  com.cov.service.PersonService:35 - person found with id 2isnavya Veeraswamy
+23-11-2021 17:18:36INFO  com.cov.controller.PersonController:35 - person found with id 2 isnavya Veeraswamy
+23-11-2021 17:18:36INFO  com.cov.service.PersonService:25 - finding person with id: 2
+23-11-2021 17:18:36WARN  com.cov.service.PersonService:28 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 17:18:36INFO  com.cov.service.PersonService:35 - person found with id 2isnavya Veeraswamy
+23-11-2021 17:18:47INFO  com.cov.controller.PersonController:31 - finding a person with id 2
+23-11-2021 17:18:47INFO  com.cov.service.PersonService:25 - finding person with id: 2
+23-11-2021 17:18:47WARN  com.cov.service.PersonService:28 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 17:18:48INFO  com.cov.service.PersonService:35 - person found with id 2isnavya Veeraswamy
+23-11-2021 17:18:48INFO  com.cov.controller.PersonController:35 - person found with id 2 isnavya Veeraswamy
+23-11-2021 17:18:48INFO  com.cov.service.PersonService:25 - finding person with id: 2
+23-11-2021 17:18:48WARN  com.cov.service.PersonService:28 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 17:18:48INFO  com.cov.service.PersonService:35 - person found with id 2isnavya Veeraswamy
+23-11-2021 17:19:11INFO  com.cov.controller.PersonController:31 - finding a person with id 2
+23-11-2021 17:19:11INFO  com.cov.service.PersonService:25 - finding person with id: 2
+23-11-2021 17:19:11WARN  com.cov.service.PersonService:28 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 17:19:11INFO  com.cov.service.PersonService:35 - person found with id 2isnavya Veeraswamy
+23-11-2021 17:19:11INFO  com.cov.controller.PersonController:35 - person found with id 2 isnavya Veeraswamy
+23-11-2021 17:19:11INFO  com.cov.service.PersonService:25 - finding person with id: 2
+23-11-2021 17:19:11WARN  com.cov.service.PersonService:28 - com.cov.exception.InvalidPersonIdException: Person id not found
+23-11-2021 17:19:11INFO  com.cov.service.PersonService:35 - person found with id 2isnavya Veeraswamy

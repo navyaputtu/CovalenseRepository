@@ -1,0 +1,74 @@
+24-11-2021 10:31:56INFO  com.cov.controller.DepartmentController:46 - inserting a department with navya
+24-11-2021 10:31:56INFO  com.cov.service.DepartmentService:43 - inserting a department
+24-11-2021 10:32:26INFO  com.cov.controller.DepartmentController:39 - finding all departments
+24-11-2021 10:32:26INFO  com.cov.service.DepartmentService:21 - finding all departments
+24-11-2021 10:32:52INFO  com.cov.controller.DepartmentController:30 - finding a department with id 2
+24-11-2021 10:32:52INFO  com.cov.service.DepartmentService:26 - finding person with id: 2
+24-11-2021 10:32:52INFO  com.cov.service.DepartmentService:38 - department found with id 2isProduction
+24-11-2021 10:32:52INFO  com.cov.controller.DepartmentController:32 - department found with id 2 isProduction
+24-11-2021 12:23:06INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:23:06INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:23:33INFO  com.cov.service.DepartmentService:21 - finding all departments
+24-11-2021 12:23:33INFO  com.cov.service.DepartmentService:21 - finding all departments
+24-11-2021 12:27:02INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:27:02INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:28:11INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:28:51INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:29:26INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:29:26INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:29:50INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:29:50INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:31:24INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:31:24INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:31:46INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:31:46INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:33:06INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:33:06INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:33:38INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:33:38INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:36:49INFO  com.cov.service.DepartmentService:21 - finding all departments
+24-11-2021 12:36:50INFO  com.cov.service.DepartmentService:21 - finding all departments
+24-11-2021 12:37:41INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:37:41INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:38:13INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:38:13INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:38:37INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:38:37INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 12:42:00INFO  com.cov.controller.DepartmentController:30 - finding a department with id 2
+24-11-2021 12:42:00INFO  com.cov.service.DepartmentService:26 - finding person with id: 2
+24-11-2021 12:42:00INFO  com.cov.service.DepartmentService:38 - department found with id 2isProduction
+24-11-2021 12:42:00INFO  com.cov.controller.DepartmentController:32 - department found with id 2 isProduction
+24-11-2021 12:50:06INFO  com.cov.controller.DepartmentController:30 - finding a department with id 2
+24-11-2021 12:50:06INFO  com.cov.service.DepartmentService:26 - finding person with id: 2
+24-11-2021 12:50:06INFO  com.cov.service.DepartmentService:38 - department found with id 2isProduction
+24-11-2021 12:50:06INFO  com.cov.controller.DepartmentController:32 - department found with id 2 isProduction
+24-11-2021 12:55:00INFO  com.cov.controller.DepartmentController:30 - finding a department with id 2
+24-11-2021 12:55:00INFO  com.cov.service.DepartmentService:26 - finding person with id: 2
+24-11-2021 12:55:00INFO  com.cov.service.DepartmentService:38 - department found with id 2isProduction
+24-11-2021 12:55:00INFO  com.cov.controller.DepartmentController:32 - department found with id 2 isProduction
+24-11-2021 12:55:16INFO  com.cov.controller.DepartmentController:30 - finding a department with id 2
+24-11-2021 12:55:16INFO  com.cov.service.DepartmentService:26 - finding person with id: 2
+24-11-2021 12:55:16INFO  com.cov.service.DepartmentService:38 - department found with id 2isProduction
+24-11-2021 12:55:16INFO  com.cov.controller.DepartmentController:32 - department found with id 2 isProduction
+24-11-2021 12:58:45INFO  com.cov.controller.DepartmentController:30 - finding a department with id 2
+24-11-2021 12:58:45INFO  com.cov.service.DepartmentService:26 - finding person with id: 2
+24-11-2021 12:58:45INFO  com.cov.service.DepartmentService:38 - department found with id 2isProduction
+24-11-2021 12:58:45INFO  com.cov.controller.DepartmentController:32 - department found with id 2 isProduction
+24-11-2021 12:58:58INFO  com.cov.controller.DepartmentController:30 - finding a department with id 2
+24-11-2021 12:58:58INFO  com.cov.service.DepartmentService:26 - finding person with id: 2
+24-11-2021 12:58:58INFO  com.cov.service.DepartmentService:38 - department found with id 2isProduction
+24-11-2021 12:58:58INFO  com.cov.controller.DepartmentController:32 - department found with id 2 isProduction
+24-11-2021 12:59:13INFO  com.cov.controller.DepartmentController:30 - finding a department with id 2
+24-11-2021 12:59:13INFO  com.cov.service.DepartmentService:26 - finding person with id: 2
+24-11-2021 12:59:13INFO  com.cov.service.DepartmentService:38 - department found with id 2isProduction
+24-11-2021 12:59:13INFO  com.cov.controller.DepartmentController:32 - department found with id 2 isProduction
+24-11-2021 13:15:04INFO  com.cov.controller.DepartmentController:30 - finding a department with id 2
+24-11-2021 13:15:04INFO  com.cov.service.DepartmentService:26 - finding person with id: 2
+24-11-2021 13:15:04INFO  com.cov.service.DepartmentService:38 - department found with id 2isProduction
+24-11-2021 13:15:04INFO  com.cov.controller.DepartmentController:32 - department found with id 2 isProduction
+24-11-2021 13:16:41INFO  com.cov.controller.EmployeeController:39 - finding all employees
+24-11-2021 13:16:41INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 13:19:15INFO  com.cov.controller.EmployeeController:39 - finding all employees
+24-11-2021 13:19:15INFO  com.cov.service.EmployeeService:22 - finding all employees
+24-11-2021 13:25:15INFO  com.cov.controller.DepartmentController:39 - finding all departments
+24-11-2021 13:25:15INFO  com.cov.service.DepartmentService:21 - finding all departments
