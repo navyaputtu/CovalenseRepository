@@ -12,12 +12,17 @@ import javax.persistence.OneToMany;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import io.swagger.annotations.ApiModelProperty;
+
 @Entity
 public class Department {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+	
+	@ApiModelProperty(notes = "Auto generated department ID by DB")
 	int id;
 
+	@ApiModelProperty(notes = "Name of the Employee")
 	String name;
 
 	@OneToMany(mappedBy = "department", fetch = FetchType.EAGER)

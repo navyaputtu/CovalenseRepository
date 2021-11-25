@@ -17,6 +17,14 @@ import com.cov.beans.Employee;
 import com.cov.exception.InvalidEmployeeIdException;
 import com.cov.service.EmployeeService;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
+
+
+@Api(value="API to perform operations on Employee", description = "This API provides capability to perform different CRUD operations on Employee Repository")
+
 @RestController
 @RequestMapping("/employee")
 public class EmployeeController {
@@ -24,6 +32,8 @@ public class EmployeeController {
 
 	@Autowired
 	EmployeeService employeeService;
+    //
+	@ApiOperation(value="search a single employee based on the ID given", response = Employee.class, produces="application/xml")
 
 	@GetMapping("/{id}")
 	public Employee find(@PathVariable int id) throws InvalidEmployeeIdException {
@@ -34,6 +44,13 @@ public class EmployeeController {
 
 	}
 
+	@ApiOperation(value="Read all the employee datails from repository", produces="application/xml")
+	@ApiResponses(value= {
+			@ApiResponse(code =200,message ="Successfully retrieved list of employees" ),
+			@ApiResponse(code =401,message ="You are not authorized to view the Repository" ),
+			@ApiResponse(code =403,message ="Accessing the resources you are trying to reach is forbidden" ),
+			@ApiResponse(code =404,message ="The resource you were trying to reach is not found" )
+	})
 	@GetMapping()
 	public List<Employee> findAll() {
 		logger.info("finding all employees");
@@ -42,6 +59,7 @@ public class EmployeeController {
 
 	}
 
+	@ApiOperation(value="Inserting the employee details", produces="application/xml")
 	@PostMapping()
 	public Employee insertPerson(@RequestBody Employee employee) {
 		logger.info("inserting a employee with " + employee.getName());
@@ -50,6 +68,7 @@ public class EmployeeController {
 
 	}
 
+	@ApiOperation(value="Updating  the employee details", produces="application/xml")
 	@PutMapping()
 	public Employee edit(@RequestBody Employee employee) throws InvalidEmployeeIdException {
 		logger.info("editing a employee with " + employee.getName());
@@ -57,6 +76,7 @@ public class EmployeeController {
 		return employeeService.update(employee);
 	}
 
+	@ApiOperation(value=" Deleting the employee details by ID", produces="application/xml")
 	@DeleteMapping("/{id}")
 	public Employee delete(@PathVariable int id) throws InvalidEmployeeIdException {
 		logger.info("deleting a employee with id " + id);
